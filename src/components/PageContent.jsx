@@ -2,18 +2,36 @@ var React = require('react');
 
 var PageContent = React.createClass({
 
-    render: function() {
+  render: function() {
 
-        return (
-          <article className="articles">
-            <section>
-              <h1 className="header">ARTICLE HEADER</h1>
-              <h3>Article sub header!!</h3>
-              <p>TextTextTextTextTextTextTextTextText</p>
-            </section>
-          </article>
-        );
-    }
+      return (
+
+        <article>
+          <section>
+            <h2>Header</h2>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <img src="http://travelhdwallpapers.com/wp-content/uploads/2014/04/Sagrada-Fam%C3%ADlia-11.jpg" alt="Sagrada Familia" />
+          </section>
+          <section>
+            <h2>Header</h2>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <img src="http://travelhdwallpapers.com/wp-content/uploads/2014/04/Sagrada-Fam%C3%ADlia-11.jpg" alt="Sagrada Familia" />
+          </section>
+          <section>
+            <h2>Header</h2>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <img src="http://travelhdwallpapers.com/wp-content/uploads/2014/04/Sagrada-Fam%C3%ADlia-11.jpg" alt="Sagrada Familia" />
+          </section>
+          <section>
+            <h2>Header</h2>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <img src="http://travelhdwallpapers.com/wp-content/uploads/2014/04/Sagrada-Fam%C3%ADlia-11.jpg" alt="Sagrada Familia" />
+          </section>
+        </article>
+
+      );
+  }
+
 });
 
 module.exports = PageContent;
